@@ -1,0 +1,13 @@
+interface:
+  display_name: 瑜伽贴图摄影 V2.3
+  short_description: 严格单图单人、三分构图、批次多样化、真实环境中文字，并逐张+整批验收的写实女性运动贴图
+  default_prompt: 使用 $yujia-v2-2 按严格摄影标准生成10张独立3:4贴图；必须逐张单独调用，一图一文件一人物；每张自然场景中加入可读中文环境文字；先建立不可重复批次矩阵，再逐张生成、逐张验收并做最终整批审查。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
